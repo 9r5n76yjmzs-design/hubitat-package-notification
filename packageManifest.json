@@ -1,0 +1,27 @@
+{
+    "packageName": "Package Notification",
+    "version": "0.1.0",
+    "releaseNotes": "v0.1.0 - first version.\n - An extension to the Doorbell Display app.\n - Presses the doorbell button from Hubitat when the doorbell camera detects a package, so Doorbell Display shows the door.\nNeeds the Doorbell Display package and the UniFi Protect package (Doorbell driver 0.2.0 or later).\nSee CHANGELOG.md for details.",
+    "minimumHEVersion": "2.3.0",
+    "author": "Michael Dailous",
+    "dateReleased": "2026-11-14",
+    "documentationLink": "https://github.com/9r5n76yjmzs-design/hubitat-package-notification/blob/main/README.md",
+    "communityLink": "https://github.com/9r5n76yjmzs-design/hubitat-package-notification/issues",
+    "licenseFile": "https://raw.githubusercontent.com/9r5n76yjmzs-design/hubitat-package-notification/main/LICENSE",
+    "category": "Convenience",
+    "tags": [
+        "Cameras",
+        "Security"
+    ],
+    "apps": [
+        {
+            "id": "3b0ec9e2-dd6b-4fba-99e5-ecfffc832e22",
+            "name": "Package Notification",
+            "namespace": "dailous",
+            "location": "https://raw.githubusercontent.com/9r5n76yjmzs-design/hubitat-package-notification/main/package-notification.groovy",
+            "required": true,
+            "primary": true,
+            "oauth": false
+        }
+    ]
+}
